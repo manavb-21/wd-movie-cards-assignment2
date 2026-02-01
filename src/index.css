@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+.app{
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.app.light{
+  background-color: #f7f7e8;
+  color: #222;
+}
+
+.app.dark {
+  background:
+    radial-gradient(1200px 600px at top center,
+      rgba(46, 139, 87, 0.25),
+      rgba(15, 32, 39, 0.95) 40%,
+      #050505 85%);
+  color: #f1f1f1;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+input {
+  font-size: 14px;
+  padding: 6px 8px;
+}
